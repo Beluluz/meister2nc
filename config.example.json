@@ -1,0 +1,31 @@
+{
+  "nextcloud": {
+    "url": "https://cloud.example.org",
+    "user": "migration",
+    "password_env": "M2NC_NC_PASSWORD",
+    "admin_user": "",
+    "admin_password_env": "M2NC_NC_ADMIN_PASSWORD",
+    "request_delay": 0.05
+  },
+  "meister": {
+    "scope": "meistertask",
+    "request_delay": 0.15,
+    "include_trashed_tasks": false,
+    "max_attachment_mb": 50
+  },
+  "deck": {
+    "board_color": "0082c9",
+    "test_suffix": " [TEST]",
+    "team_group": null,
+    "group_map": {},
+    "card_footer": true,
+    "archive_completed_after_days": null
+  },
+  "collectives": {
+    "roots": {},
+    "test_suffix": " [TEST]",
+    "include_discussions": true,
+    "order_descending": false,
+    "page_footer": true
+  }
+}
